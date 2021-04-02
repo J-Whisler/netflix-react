@@ -26,8 +26,34 @@ const Tabs = () => {
   );
 };
 
-const TabsMain = styled(motion.div)``;
+const TabsMain = styled(motion.div)`
+  background: #141414;
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+`;
 
-const TabsContainer = styled(motion.div)``;
+const TabsContainer = styled(motion.div)`
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  > div {
+    padding: 1.5rem 0;
+    :hover {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
+  .tab-border {
+    border-bottom: #e50914 4px solid;
+  }
+`;
 
 export default Tabs;
