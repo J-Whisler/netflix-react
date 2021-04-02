@@ -33,7 +33,7 @@ const Showcase = () => {
 
 const ShowcaseMain = styled(motion.div)`
   width: 100%;
-  height: 93vh;
+  height: 94vh;
   position: relative;
   background: url(${Background}) no-repeat center center/cover;
   ::after {
@@ -130,6 +130,9 @@ const ShowcaseContent = styled(motion.div)`
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     border-radius: 0.1rem;
+    :hover {
+      opacity: 0.8;
+    }
     .icon {
       margin-left: 1rem;
     }
