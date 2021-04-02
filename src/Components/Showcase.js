@@ -66,29 +66,6 @@ const ShowcaseTop = styled(motion.div)`
     right: 0;
     transform: translate(-50%, -50%);
   }
-
-  .btn {
-    display: inline-block;
-    background: #e50914;
-    color: #fff;
-    padding: 0.4rem 1.3rem;
-    font-size: 1rem;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    margin-right: 0.5rem;
-    outline: none;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  }
-
-  .btn:hover {
-    opacity: 0.85;
-  }
-
-  .btn-rounded {
-    border-radius: 0.3rem;
-  }
 `;
 
 const ShowcaseContent = styled(motion.div)`
@@ -116,26 +93,6 @@ const ShowcaseContent = styled(motion.div)`
     line-height: 1.25;
     margin-bottom: 3rem;
     letter-spacing: 0.1rem;
-  }
-  .btn-xl {
-    font-size: 1.5rem;
-    padding: 1.5rem 2.1rem;
-    text-transform: uppercase;
-    display: inline-block;
-    background: #e50914;
-    color: #fff;
-    padding: 1.5rem 2.1rem;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    border-radius: 0.1rem;
-    :hover {
-      opacity: 0.8;
-    }
-    .icon {
-      margin-left: 1rem;
-    }
   }
 `;
 
