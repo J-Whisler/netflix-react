@@ -63,6 +63,9 @@ img {
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
+    .icon {
+      margin-left: 1rem;
+    }
   }
 
   .btn-xl {
