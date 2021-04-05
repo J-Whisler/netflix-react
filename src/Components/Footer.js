@@ -72,7 +72,7 @@ const Footer = () => {
 };
 
 const FooterMain = styled(motion.div)`
-  max-width: 7%;
+  max-width: 75%;
   margin: 1rem auto;
   overflow: auto;
   color: #999;
